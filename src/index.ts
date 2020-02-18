@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { positionSizeCalculator } from './position-size-calculator'
 
 function main(): void {

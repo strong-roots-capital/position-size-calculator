@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /**
  * position-size-calculator
  * CLI to calculate position-size given risk tolerance
