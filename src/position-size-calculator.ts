@@ -136,7 +136,13 @@ export function positionSizeCalculator(
 
 function main(): void {
     positionSizeCalculator(process.argv.slice(2))
-        .map(console.log.bind(null))
+        .bimap(
+            (error) => {
+                console.error(`Error:`, error)
+                process.exit(-1)
+            },
+            console.log.bind(null)
+        )
 }
 
 
