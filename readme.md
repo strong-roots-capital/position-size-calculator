@@ -15,25 +15,28 @@
 
 ## Install
 
-```shell
+``` shell
 npm install position-size-calculator
 ```
 
 ## Use
 
-```typescript
-import { positionSizeCalculator } from 'position-size-calculator'
-// TODO: describe usage
+``` typescript
+Position-Size Calculator
+
+Usage:
+    position-size-calculator -c <capital> -r <risk> (-p <percent>|-i <entry> -o <exit>) [-u <price>]
 ```
 
-## Documentation
+### Example
 
-See [generated documentation](doc/README.md).
+``` shell
+$ position-size-calculator.ts -c 100 -r 1 -i 100 -o 99 -u 2
+
+Position size to risk 1% of 100 capital over a 1% move (from 100 to 99) is: 100 or 50 units at 2 per unit
+```
 
 ## Related
 
-TODO
-
-## Acknowledgments
-
-TODO
+- [position-size](https://github.com/strong-roots-capital/position-size)
+- [percentage-change](https://github.com/strong-roots-capital/percentage-change)
