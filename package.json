@@ -1,6 +1,6 @@
 {
     "name": "position-size-calculator",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "CLI to calculate position-size given risk tolerance",
     "main": "dist/src/position-size-calculator.js",
     "types": "dist/src/position-size-calculator.d.ts",
