@@ -5,7 +5,7 @@
     "main": "dist/src/position-size-calculator.js",
     "types": "dist/src/position-size-calculator.d.ts",
     "bin": {
-        "position-size-calculator": "./dist/src/position-size-calculator.js"
+        "position-size-calculator": "./dist/src/index.js"
     },
     "scripts": {
         "prepublishOnly": "npm run clean && npm run compile",
