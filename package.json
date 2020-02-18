@@ -4,6 +4,9 @@
     "description": "CLI to calculate position-size given risk tolerance",
     "main": "dist/src/position-size-calculator.js",
     "types": "dist/src/position-size-calculator.d.ts",
+    "bin": {
+        "position-size-calculator": "./dist/src/position-size-calculator.js"
+    },
     "scripts": {
         "prepublishOnly": "npm run clean && npm run compile",
         "compile": "npm run genversion && tsc",
