@@ -7,7 +7,7 @@ import { docopt } from 'docopt'
 import { Debug } from './debug'
 import { version } from './version'
 import { Maybe } from 'purify-ts/Maybe'
-import { Either, Left, Right } from 'purify-ts/Either'
+import { Either } from 'purify-ts/Either'
 import { percentageChange } from 'percentage-change'
 import { positionSize } from 'position-size'
 
