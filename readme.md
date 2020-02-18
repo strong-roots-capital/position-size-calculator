@@ -11,7 +11,6 @@
 [Code Coverage]: https://codecov.io/gh/strong-roots-capital/position-size-calculator/branch/master/graph/badge.svg
 [Dependencies]: https://david-dm.org/strong-roots-capital/position-size-calculator/status.svg
 
-
 > CLI to calculate position-size given risk tolerance
 
 ## Install
